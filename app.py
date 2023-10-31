@@ -13,7 +13,7 @@ api = Api(app)
 CORS(app)
 app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:@127.0.0.1:3306/absen"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SECRET_KEY'] = 'abiyosoft'
+app.config['SECRET_KEY'] = 'abi'
 
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
